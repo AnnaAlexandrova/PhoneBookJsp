@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="phonebookjsp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>phonebookjsp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="phonebookjsp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="phonebookjsp:war exploded" />
+    </root>
+  </artifact>
+</component>
